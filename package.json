@@ -1,0 +1,13 @@
+{
+  "name": "hydra-yuidoc-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs": "yuidoc . -o docs",
+    "docs:dev": "yuidoc . --server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Naoto Hieda",
+  "license": "MIT"
+}

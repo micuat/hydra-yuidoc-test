@@ -1,0 +1,86 @@
+{
+    "project": {},
+    "files": {
+        "glsl-functions.js": {
+            "name": "glsl-functions.js",
+            "modules": {},
+            "classes": {
+                "GlslFunctions": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {
+        "GlslFunctions": {
+            "name": "GlslFunctions",
+            "shortname": "GlslFunctions",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "glsl-functions.js",
+            "line": 71,
+            "description": "This is a test object that contains GLSL functions."
+        }
+    },
+    "elements": {},
+    "classitems": [
+        {
+            "file": "glsl-functions.js",
+            "line": 78,
+            "description": "noise (source)",
+            "itemtype": "method",
+            "name": "noise",
+            "params": [
+                {
+                    "name": "scale=10",
+                    "description": "Scale",
+                    "type": "Number"
+                },
+                {
+                    "name": "offset=0.1",
+                    "description": "Morphing speed",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "Returns a source",
+                "type": "Object"
+            },
+            "class": "GlslFunctions"
+        },
+        {
+            "file": "glsl-functions.js",
+            "line": 105,
+            "description": "voronoi (source)",
+            "itemtype": "method",
+            "name": "voronoi",
+            "params": [
+                {
+                    "name": "scale=5",
+                    "description": "Scale",
+                    "type": "Number"
+                },
+                {
+                    "name": "speed=0.3",
+                    "description": "Morphing speed",
+                    "type": "Number"
+                },
+                {
+                    "name": "blending=0.3",
+                    "description": "Variation within each cell",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "Returns a source",
+                "type": "Object"
+            },
+            "class": "GlslFunctions"
+        }
+    ],
+    "warnings": []
+}
